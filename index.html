@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DataFinder - Pakistan No.1 Database Service</title>
+	<meta name="description" content="DataFinder Service gives a lot of Information about any Person, its Assets and Network details in one click without having any technical knowledge.">
+	<meta name="keywords" content="datafinder, database, darkcoderz, data finder, sim database, sim data">
+	<meta name="author" content="Dark Coderz">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/favicon.png" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165287723-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-165287723-1');
+	</script>
+
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+			if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+			n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t,s)}(window, document,'script',
+				'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '2738275959738129');
+			fbq('track', 'PageView');
+		</script>
+		<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=2738275959738129&ev=PageView&noscript=1"
+			/></noscript>
+			<!-- End Facebook Pixel Code -->
+
+
+		</head>
+
+		<style type="text/css">
+			body
+			{
+				background-color: #EEEEEE;
+				font-family: 'Roboto', sans-serif;
+			}
+			.mainContent
+			{
+				background-color: #ffffff;
+				padding: 15px;
+			}
+			.logotitle
+			{
+				vertical-align: top;
+				font-size: 20px;
+				color: #6F6F6F;
+				margin-top: -10px;
+			}
+			/* xs */
+			.logoimg {
+				width: 60px;
+				height: 60px;
+				float: left;
+				margin-right: 10px;
+			}
+			.devtitle
+			{
+				color: #689f38;
+				font-size: 13px;
+			}
+			#download
+			{
+				background-color: #689f38;
+				color: #ffffff;
+				width: 100%;
+				outline: none;
+				height: 40px;
+				border: none;
+			}
+
+			/* Ripple effect */
+			#download {
+				background-position: center;
+				transition: background 0.8s;
+			}
+			#download:hover {
+				background: #33691E radial-gradient(circle, transparent 1%, #33691E 1%) center/15000%;
+			}
+			#download:active {
+				background-color: #689f38;
+				background-size: 100%;
+				transition: background 0s;
+			}
+
+			/* sm */
+			@media (min-width: 768px) {
+				.logoimg {
+					width: 80px;
+					height: 80px;
+				}
+
+				.logotitle
+				{
+					font-size: 25px;
+				}
+			}
+			/* md */
+			@media (min-width: 992px) {
+				.logoimg {
+					width: 100px;
+					height: 100px;
+				}
+				.logotitle
+				{
+					font-size: 25px;
+				}
+			}
+			/* lg */
+			@media (min-width: 1200px) {
+				.logoimg {
+					width: 120px;
+					height: 120px;
+				}
+				.logotitle
+				{
+					font-size: 30px;
+				}
+			}
+			html {
+				overflow:   scroll;
+			}
+			::-webkit-scrollbar {
+				width: 0px;
+				background: transparent; /* make scrollbar transparent */
+			}
+			.glow {
+				font-size: 16px;
+				color: red;
+				text-align: center;
+				-webkit-animation: glow 1s ease-in-out infinite alternate;
+				-moz-animation: glow 1s ease-in-out infinite alternate;
+				animation: glow 1s ease-in-out infinite alternate;
+			}
+		</style>
+		<body>
+
+			<div class="container mt-1">
+
+				<div class="row">
+
+					<div class="col-md-1 col-sm-0 col-lg-2"></div>
+
+					<div class="col-md-10 col-sm-12 col-lg-8 shadow-sm p-3 mb-5 bg-white rounded mainContent">
+
+						<div class="box">
+							<img src="img/logo.png" class="rounded logoimg" alt="datafinder logo" class="img-fluid" width="120px" height="120px">
+							<h1 class="logotitle"><span>Database E-Service</span></h1>
+							<p class="devtitle">Dark Coderz</p>
+						</div>
+
+						<br>
+						<div style="display: flex;overflow: auto;
+						white-space: nowrap;color: gray;font-weight: 300;">
+						<span class="mr-3"><i class="fas fa-star-half-alt"></i> 4.4</span>
+						<span class="mr-3"><i class="far fa-folder"></i> 10MB</span>
+						<span class="mr-3"><i class="fas fa-download"></i> 50k+</span>
+						<span class="mr-3 getVersion"><i class="fas fa-code-branch"></i> 1.1</span>
+					</div>
+
+
+					<br>
+					<div>
+
+						<a href="http://www.mediafire.com/file/n5uigd9tqr84alw/app1260192.apk/file" style="text-decoration: none"><input id="download" value="Install" type="button" class="installbtn rounded"/></a>
+						<br>
+						
+						<!-- <a href="https://api.whatsapp.com/send?phone=+923377062857" style="text-decoration: none;"><input id="download" value="Sms Us on whatsApp to Purchase Membership" type="button" class="installbtn rounded" /></a> -->
+					</div>
+					<br>
+
+					<div>
+						<span style="white-space: pre-line">What's new </span>
+						<span style="font-size: 10px;color: gray;">(Last updated Oct 27, 2020)</span>
+						<br>
+						<span style="font-weight: 300;font-size:14px;color: #6C6C6C">Database service</span>
+						<br>
+						<span style="font-weight: 300;font-size:14px;color: #6C6C6C">New Interface</span>
+						
+					</div>
+					<br>
+					<hr>
+					<!-- <span style="font-size: 10px;color: grey;">Advertisement</span>
+					<a href="https://unglipoint.com/"><img src="img/unglipoint.gif" class="img-fluid" width="100%"></a>
+					<hr> -->
+					<strong>Visitor's:</strong>
+					<br>
+					<a href="https://www.webfreecounter.com/" target="_blank"><img src="https://www.webfreecounter.com/hit.php?id=gveuaxffd&nd=6&style=80" border="0" alt="free counter"></a>
+					<br><br>
+
+					<div style="display: flex;overflow: auto;
+					white-space: nowrap;">
+
+					<img src="img/4.jpeg" alt="datafinder" class="img-fluid" style="height: 400px;margin-left: 15px;">
+					<img src="img/3.jpeg" alt="datafinder" class="img-fluid" style="height: 400px;margin-left: 15px;">
+					<img src="img/2.jpeg" alt="datafinder" class="img-fluid" style="height: 400px;margin-left: 15px;">
+					<img src="img/1.jpeg" alt="datafinder" class="img-fluid" style="height: 400px;margin-left: 15px;">
+					
+				</div>
+
+
+				<br><br>
+				<div style="color: #6C6C6C;font-weight:300">
+					<h4>About this app:</h4>
+					<p>
+						Database E-service gives a lot of Information about any Person, its Assets and Network details in one click without having any technical knowledge.<br>
+					</p>
+
+					<!-- <div class="more-cont" style="display: none;">
+						<strong>You can get some key feature on that System:</strong>
+						<ul>
+							<li>Pakistan Network Detail</li>
+							<li>Indian Network Detail</li>
+							<li>Vehicle Detail</li>
+							<li>License Detail</li>
+							<li>Telenor Number Blocking</li>
+							<li>CNIC Against All Number</li>
+							<li>Fake Mail</li>
+							<li>Facebook Hacking</li>
+							<li>Tips & Tricks Network</li>
+						</ul>
+
+						<strong>We also provide services:</strong>
+						<ul>
+							<li>Nadra</li>
+							<li>Pin Point Location</li>
+							<li>Family Tree</li>
+							<li>Call History</li>
+							<li>Imei Tracing</li>
+						</ul>
+
+						And many new features are updating day by day. So keep enjoy our service.
+					</div> -->
+					<br>
+					<center><a style="cursor: pointer;color: #6D935E;font-weight:500" class="more">READ MORE</a></center>
+
+				</div>
+				<br><hr><br>
+
+				<div>
+					<div class="row">
+						<div class="col-md-4 col-lg-4 col-sm-4 col-4">
+							<!-- First Section -->
+
+							<!-- Update -->
+							<span style="font-size: 15px;">
+								Updated
+							</span>
+							<br>
+							<span style="font-weight: 300;font-size: 14px;color: #6C6C6C">
+								Oct 27, 2020
+							</span>
+
+							<br><br>
+
+							<!-- Current Version -->
+							<span style="font-size: 15px;">
+								Current Version
+							</span>
+							<br>
+							<span style="font-weight: 300;font-size: 14px;color: #6C6C6C">
+								1.1
+							</span>
+							<br><br>
+
+							<!-- Developers -->
+							<span style="font-size: 15px;">
+								Developer
+							</span>
+							<!-- <br>
+							<span style="font-weight: 300;font-size: 14px;">
+								<a href="mailto:datafinderservice@gmail.com" style="color: green">datafinderservice@gmail.com</a>
+							</span> -->
+							<br>
+							<span style="font-weight: 300;font-size: 14px;">
+								<a href="https://api.whatsapp.com/send?phone=+923015225555" style="color: green">+92 301 5225555</a>
+							</span>
+							<br>
+							<span style="font-weight: 300;font-size: 14px;color: #6C6C6C">
+								Punjab, Pakistan
+							</span>
+
+						</div>
+						<div class="col-md-4 col-lg-4 col-sm-4 col-4">
+							
+							<!-- Second Section -->
+
+							<!-- Size -->
+							<span style="font-size: 15px;">
+								Size
+							</span>
+							<br>
+							<span style="font-weight: 300;font-size: 14px;color: #6C6C6C">
+								23M
+							</span>
+
+							<br><br>
+
+							<!-- Requires Android -->
+							<span style="font-size: 15px;">
+								Requires Android
+							</span>
+							<br>
+							<span style="font-weight: 300;font-size: 14px;color: #6C6C6C">
+								4.4 and up
+							</span>
+
+						</div>
+						<div class="col-md-4 col-lg-4 col-sm-4 col-4">
+							
+							<!-- Third Section -->
+
+							<!-- Installs -->
+							<span style="font-size: 15px;">
+								Intsalls
+							</span>
+							<br>
+							<span style="font-weight: 300;font-size: 14px;color: #6C6C6C">
+								50,000+
+							</span>
+
+							<br><br>
+
+							<!-- Offered By -->
+							<span style="font-size: 15px;">
+								Offered By
+							</span>
+							<br>
+							<span style="font-weight: 300;font-size: 14px;color: #6C6C6C">
+								Dark Coderz
+							</span>
+
+						</div>
+					</div>
+				</div>
+
+
+
+			</div>
+
+
+
+			<div class="col-md-1 col-sm-0 col-lg-2"></div>
+
+		</div>
+
+	</div>
+
+	<script>
+
+		$('#download').one('click', function() {
+			$(this).attr('disabled',true);
+			$(this).val("Downloading...");
+		});
+
+		$('.more').click(function() {
+			$(".more-cont").slideToggle();
+			$(this).html($(this).html()=='COLLAPSE'?'READ MORE':'COLLAPSE');
+		});
+
+	</script>
+
+	<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Oct 17, 2020 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+</body>
+</html>
